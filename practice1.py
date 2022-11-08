@@ -51,7 +51,7 @@ class MyGUI:
         self.entree3 = tkinter.Radiobutton(self.mid_frame,text='English Breakfast ($5)',variable=self.var,value=5)
 
 
-
+        self.entree1.select()
         self.entree_label.pack()
         self.entree1.pack()
         self.entree2.pack()

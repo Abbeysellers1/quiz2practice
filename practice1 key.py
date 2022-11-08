@@ -44,6 +44,7 @@ class MyGUI:
         self.entree2 = tkinter.Radiobutton(self.mid_frame,text='Waffle ($9)',variable=self.var,value=9)
         self.entree3 = tkinter.Radiobutton(self.mid_frame,text='English Breakfast ($5)',variable=self.var,value=5)
 
+
         self.entree_label.pack()
         self.entree1.pack()
         self.entree2.pack()
